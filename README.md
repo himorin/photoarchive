@@ -11,6 +11,19 @@ Not targeting:
 - online upload (for initial version)
 - integration to external authentication like OAuth etc.
 
+## System Requirements
+
+- backend storage
+  - stored in hash directory
+  - one resource ID per one photo, with multiple resource category identifiers (e.g. JPEG, RAW, thumbnail, web-quality JPEG)
+- download
+  - download both single with potential multiple category by file or zip, or multiple selection (one category) by zip
+  - selection of cateogry
+- UI
+  - panel like display of thumbnails and full window popup preview
+  - selection of multiple thumbnails and operation, like download, creation of sub-album
+- access control
+
 
 ## Backend Design
 
